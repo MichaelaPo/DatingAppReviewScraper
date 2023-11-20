@@ -1,6 +1,6 @@
-# Scraping Reviews from the App Store and Google Play
+# Scraping Reviews from the Apple App Store and Google Play
 
-This repository contains a Python project dedicated to scraping user reviews from Apple's App Store and Google Play for popular dating apps. The scraping process utilizes the app_store_scraper library for App Store reviews and google_play_scraper for Google Play reviews.
+This repository contains a Python project dedicated to scraping user reviews from the Apple App Store and Google Play for popular dating apps. The scraping process utilizes the app_store_scraper library for App Store reviews and google_play_scraper for Google Play reviews.
 
 ## Overview
 The objective of this project is to gather and examine user reviews from leading dating apps, focusing on Bumble, Tinder, and Hinge. The extracted data provides valuable insights into user sentiments, feedback, and trends related to these applications. Detailed exploration of these insights will be addressed in the next project. For now, I'll be focusing only on the extraction of the reviews.
@@ -8,9 +8,9 @@ The objective of this project is to gather and examine user reviews from leading
 ## Technologies Used
 Python: The project is implemented in Python.
 
-[app_store_scraper](https://pypi.org/project/app-store-scraper/): I used this library to extract reviews from the App Store. It facilitates easy access to app information, including user reviews.
+I used this library to extract reviews from the Apple App Store: [app_store_scraper](https://pypi.org/project/app-store-scraper/).  
 
-[google_play_scraper](https://pypi.org/project/google-play-scraper/): For scraping reviews from the Google Play, I used the google_play_scraper library. It allows seamless extraction of app details and user reviews.
+For scraping reviews from the Google Play, I used this: [google_play_scraper](https://pypi.org/project/google-play-scraper/).
 
 ## Project Structure
 Bumble Reviews (Bumble-Google&Apple-App-Reviews.ipynb): Jupyter Notebook file containing the code for scraping and analyzing user reviews specifically for the Bumble app.
